@@ -1,4 +1,6 @@
-# Unknown-13 Project Structure
+# Project Architecture
+
+```text
 PROJECT_ROOT/
 │
 ├── Assets/
@@ -50,7 +52,7 @@ PROJECT_ROOT/
 │   │   │   │   ├── Items/
 │   │   │   │   ├── Puzzles/
 │   │   │   │   └── Checkpoints/
-│   │   │   │
+│   │   │
 │   │   │   ├── Systems/
 │   │   │   │   ├── Audio/
 │   │   │   │   ├── SaveLoad/
@@ -59,7 +61,7 @@ PROJECT_ROOT/
 │   │   │   │   ├── Input/
 │   │   │   │   ├── Accessibility/
 │   │   │   │   └── Persistence/
-│   │   │   │
+│   │   │
 │   │   │   └── Presentation/
 │   │   │       ├── HUD/
 │   │   │       ├── Menus/
@@ -124,3 +126,4 @@ PROJECT_ROOT/
 ├── Builds/
 ├── .gitignore
 └── README.md
+```
